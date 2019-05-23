@@ -1,0 +1,167 @@
+/*this is from www.youtube.com/watch?v=8QKOaTYvYUA */
+
+
+/*NAVIGATION STYLES*/
+
+header{
+    background: var(--p1);
+    text-align: center;
+    position: fixed; 
+    width: 100%;
+    height: var(--headerHeight);
+    z-index:999;
+  }
+  
+  /* empty div just to add */
+  .headerOffset{
+    height: var(--headerHeight);
+  }
+  
+  /* The nav bar on a mobile device (small width) */
+  nav {
+    position: absolute;  
+    text-align: left;
+    top: 100%;
+    left: 0%;
+    background: var(--p1);
+    width: 100%;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: transform 200ms ease-in-out;
+  }
+  
+  .title{
+      color: var(--p3); 
+      text-decoration: none;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      grid-column: 2 / 3;
+      margin: 1em;
+  }
+   
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+  }
+  
+  nav a {
+    color: var(--p4);
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 50ms ease-in-out;
+  }
+  
+  
+  nav a:hover{
+    color: var(--p6);
+  }
+  
+  .navToggle:checked ~ nav {
+    transform: scale(1,1);
+  }
+  .navToggle:checked ~ nav a{
+    opacity: 1;
+    transition: opacity 150ms ease-in-out 150ms;
+  }
+  .navToggle {
+    display:none;
+  }
+  
+  .navToggleLabel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  /*trick for drawing 3 horizontal bars*/
+  .navToggleLabel span,
+  .navToggleLabel span::before,
+  .navToggleLabel span::after {
+    display: block;
+    background: var(--p6);
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+  }
+  
+  .navToggleLabel span::before,
+  .navToggleLabel span::after {
+    content: '';
+    position: absolute;
+  }
+  
+  .navToggleLabel span::before{
+    bottom: 7px;
+  }
+  
+  .navToggleLabel span::after{
+    top: 7px;
+  }
+  
+  /* The nav bar on a computer screen */
+  @media screen and (min-width: 800px){
+    .navToggleLabel{
+      display: none;
+    }
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    }
+    
+    .logo {
+      grid-column: 2 / 3;
+    }
+    nav {
+      all: unset;
+      grid-column: 3 / 4;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    nav a{
+      opacity: 1;
+      position: relative;
+    }
+    
+    nav ul {
+      display: flex;
+    }
+    
+    nav li{
+      margin-left: 3em;
+      margin-bottom: 0;
+    }
+    
+    nav a::before{
+      content: '';
+      display: block;
+      height: 0.1em;
+      background: var(--p6);
+      position: absolute;
+      top: -0.2em;
+      left: 0;
+      right: 0;
+      transform: scale(0, 1);
+      transform-origin: left;
+      transition: transform 200ms ease-in-out;
+    }
+    
+    nav a:hover::before{
+      transform: scale(1,1)
+    }
+  }
+  

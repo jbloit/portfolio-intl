@@ -3,10 +3,13 @@ import PropTypes from 'prop-types'
 import Footer from '../components/Footer'
 import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, Link, graphql } from "gatsby"
+import styles from "./layout.module.css";
 import { IntlProvider } from 'react-intl';
 import 'intl';
-import './layout.css'
+
+//import './layout.css';
+
 
 const Layout = ({ children, location, i18nMessages }) => {
   return (
@@ -15,6 +18,7 @@ const Layout = ({ children, location, i18nMessages }) => {
         query LayoutQuery {
           site {
             siteMetadata {
+              title
               languages {
                 defaultLangKey
                 langs
@@ -24,34 +28,64 @@ const Layout = ({ children, location, i18nMessages }) => {
         }
       `}
       render={data => {
-        const url = location.pathname;
-        const { langs, defaultLangKey } = data.site.siteMetadata.languages;
-        const langKey = getCurrentLangKey(langs, defaultLangKey, url);
-        const homeLink = `/${langKey}`.replace(`/${defaultLangKey}/`, '/');
-        const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url))
-        
-        return (
-          <IntlProvider
-            locale={langKey}
-            messages={i18nMessages}
-          >
-            <div>
-              <Helmet
-                title="Portfolio of Julien Bloit"
-                meta={[
-                  { name: 'description', content: 'Sample' },
-                  { name: 'keywords', content: 'sample, something' },
-                ]}
-              />
 
+        if (location !== undefined) {
+          const url = location.pathname;
+          console.log("LOCATION")
+          console.log(location)
+
+          const { langs, defaultLangKey } = data.site.siteMetadata.languages;
+          const langKey = getCurrentLangKey(langs, defaultLangKey, url);
+          const homeLink = `/${langKey}`.replace(`/${defaultLangKey}/`, '/');
+          const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url))
+
+          return (
+            <IntlProvider
+              locale={langKey}
+              messages={i18nMessages}
+            >
               <div>
-                {children}
-              </div>
+                <Helmet
+                  title="Portfolio of Julien Bloit"
+                  meta={[
+                    { name: 'description', content: 'Sample' },
+                    { name: 'keywords', content: 'sample, something' },
+                  ]}
+                />
 
-              <Footer langs={langsMenu} />
-            </div>
-          </IntlProvider>
-        )
+                <header>
+
+                  <Link to={`/`} className={styles.title}><h1 className={styles.title}>{data.site.siteMetadata.title} </h1></Link>
+                  <input type="checkbox" id="navToggle" className={styles.navToggle} />
+                  <nav>
+                    <ul>
+                      <li><Link to={`/projects/`}>Projects</Link></li>
+                      <li><Link to={`/lab/`}>Lab</Link></li>
+                      <li> <Link to={`/about/`}>About</Link></li>
+                      <li><Link to={`/contact/`}>Contact</Link></li>
+                    </ul>
+                  </nav>
+                  <label for="navToggle" className={styles.navToggleLabel}>
+                    <span></span>
+                  </label>
+                </header>
+
+
+                <div className="content">
+                  <div className={styles.headerOffset} />
+                  {children}
+
+                </div>
+
+                <Footer langs={langsMenu} />
+              </div>
+            </IntlProvider>
+          )
+
+        }
+
+
+
       }}
     />
   );

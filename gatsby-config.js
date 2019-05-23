@@ -2,7 +2,7 @@ const languages = require('./src/data/languages');
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Julien Bloit`,
     languages
   },
   plugins: [
