@@ -27,6 +27,7 @@ const Header = (props) => (
           Gatsby
         </Link>
       </h1>
+      {console.log(props)}
       <SelectLanguage langs={props.langs} />
     </div>
   </div>

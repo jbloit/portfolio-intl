@@ -2,11 +2,11 @@ import React from 'react';
 import Layout from './index';
 import { addLocaleData } from 'react-intl';
 
-import messages from '../data/messages/pt';
-import pt from 'react-intl/locale-data/pt';
-import 'intl/locale-data/jsonp/pt';
+import messages from '../data/messages/fr';
+import fr from 'react-intl/locale-data/fr';
+import 'intl/locale-data/jsonp/fr';
 
-addLocaleData(pt);
+addLocaleData(fr);
 
 export default (props) => (
   <Layout
