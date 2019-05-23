@@ -31,9 +31,6 @@ const Layout = ({ children, location, i18nMessages }) => {
 
         if (location !== undefined) {
           const url = location.pathname;
-          console.log("LOCATION")
-          console.log(location)
-
           const { langs, defaultLangKey } = data.site.siteMetadata.languages;
           const langKey = getCurrentLangKey(langs, defaultLangKey, url);
           const homeLink = `/${langKey}`.replace(`/${defaultLangKey}/`, '/');
@@ -55,7 +52,7 @@ const Layout = ({ children, location, i18nMessages }) => {
 
                 <header>
 
-                  <Link to={`/`} className={styles.title}><h1 className={styles.title}>{data.site.siteMetadata.title} </h1></Link>
+                  <Link to={`/`} ><h1 className={styles.title}>{data.site.siteMetadata.title} </h1></Link>
                   <input type="checkbox" id="navToggle" className={styles.navToggle} />
                   <nav>
                     <ul>
