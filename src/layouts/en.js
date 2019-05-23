@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from './index';
+import Layout from './layout';
 import { addLocaleData } from 'react-intl';
 
 import messages from '../data/messages/en';

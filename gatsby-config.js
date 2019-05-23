@@ -29,6 +29,8 @@ module.exports = {
       },
     },
 
+
+
     // a "transformer" plugin: transform raw data brought by source plugins
     {
       resolve: 'gatsby-transformer-remark',
