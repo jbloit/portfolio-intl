@@ -4,12 +4,12 @@ import Layout from "../layouts/fr"
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
-    <div>
-      <h1>Salut</h1>
-      <p>Accueil.</p>
-      <p>C'est le début</p>
-      <Link to="/fr/page-2/">Aller à la page 2</Link>
-    </div>
+            <br/>je construis des dispositifs pour modeler la matière musicale, à des fins 
+                <ul>
+                    <li><a href="#">artistiques</a></li>
+                    <li><a href="#">pédagogiques</a></li>
+                    <li><a href="#">récréatives</a></li>
+                </ul>
   </Layout>
 )
 

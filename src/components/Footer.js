@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import SelectLanguage from './SelectLanguage';
 
-const Header = (props) => (
+const Footer = (props) => (
   <div
     style={{
       background: 'rebeccapurple',
@@ -33,4 +33,4 @@ const Header = (props) => (
   </div>
 )
 
-export default Header;
+export default Footer;
