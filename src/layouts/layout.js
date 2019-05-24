@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { StaticQuery, Link, graphql } from "gatsby"
 import styles from "./layout.module.css";
-import { IntlProvider } from 'react-intl';
+import { IntlProvider, FormattedMessage } from 'react-intl';
 import 'intl';
 
 //import './layout.css';
@@ -56,10 +56,10 @@ const Layout = ({ children, location, i18nMessages }) => {
                   <input type="checkbox" id="navToggle" className={styles.navToggle} />
                   <nav>
                     <ul>
-                      <li><Link to={`/projects/`}>Projects</Link></li>
-                      <li><Link to={`/lab/`}>Lab</Link></li>
-                      <li> <Link to={`/about/`}>About</Link></li>
-                      <li><Link to={`/contact/`}>Contact</Link></li>
+                      <li><Link to={`/` + langKey + `/projects/`}><FormattedMessage id='nav_projects'/></Link></li>
+                      <li><Link to={`/` + langKey + `/lab/`}><FormattedMessage id='nav_lab'/></Link></li>
+                      <li> <Link to={`/` + langKey + `/about/`}><FormattedMessage id='nav_about'/></Link></li>
+                      <li><Link to={`/` + langKey + `/contact/`}><FormattedMessage id='nav_contact'/></Link></li>
                     </ul>
                   </nav>
                   <label for="navToggle" className={styles.navToggleLabel}>
