@@ -4,27 +4,27 @@ import Link from 'gatsby-link';
 import { FormattedMessage } from 'react-intl';
 
 const SelectLanguage = (props) => {
+
   const links = props.langs.map(lang =>
-    <Link to={lang.link} key={lang.langKey} style={{
-      color: 'white'
-    }}>
-      <li selected={lang.selected}>
+
+    <div>
+    <Link to={lang.link} key={lang.langKey}>
+     
         {lang.langKey}
-      </li>
-    </Link>
+    
+    </Link> 
+    </div>
   );
 
   return (
-    <section>
-      <header style={{
-        color: 'white'
-      }}>
-        <FormattedMessage id="selectLanguage" />
-      </header>
+
+    <div>
+
       <ul>
         {links}
       </ul>
-    </section>
+
+    </div>
   );
 };
 
