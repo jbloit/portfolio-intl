@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from "../layouts/fr"
+import Layout from "../layouts/en"
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
-  <div><p>Ma vie mon oeuvre</p></div>
+  <div><p>Stuff I'm working on</p></div>
         
   </Layout>
 )

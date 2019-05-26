@@ -3,7 +3,7 @@ import Layout from "../layouts/fr"
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
-  <div><p>Ma vie mon oeuvre</p></div>
+  <div><p>J'accepte de nouvelles collaborations</p></div>
         
   </Layout>
 )
