@@ -23,58 +23,62 @@ const Layout = (props) => {
   // if (location !== undefined) 
 
   const { children, location } = props;
-  const url = location.pathname;
-  const { langs, defaultLangKey } = props.data.site.siteMetadata.languages;
-  const langKey = getCurrentLangKey(langs, defaultLangKey, url);
-  const homeLink = `/${langKey}`.replace(`/${defaultLangKey}/`, '/');
-  const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url));
-
-  return (
-    <IntlProvider
-      locale={langKey}
-      messages={messages[langKey]}
-    >
-      <div>
-        <Helmet
-          title="Portfolio of Julien Bloit"
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        />
-
-        <header>
-          <Link to={`/`} ><h1 className={styles.title}>{props.data.site.siteMetadata.title} </h1></Link>
-          <input type="checkbox" id="navToggle" className={styles.navToggle} />
-          <nav>
-            <ul>
-              <li><Link to={`/` + langKey + `/projects/`}><FormattedMessage id="nav_projects" /></Link></li>
-              <li><Link to={`/` + langKey + `/lab/`}><FormattedMessage id='nav_lab' /></Link></li>
-              <li> <Link to={`/` + langKey + `/about/`}><FormattedMessage id='nav_about' /></Link></li>
-              <li><Link to={`/` + langKey + `/contact/`}><FormattedMessage id='nav_contact' /></Link></li>
-              <li><SelectLanguage langs={langsMenu}/></li>    
-            </ul>
-            
-          </nav>
-
-          <label for="navToggle" className={styles.navToggleLabel}>
-            <span></span>
-          </label>
-        </header>
+  if (location !== undefined) {
+    const url = location.pathname;
+    const { langs, defaultLangKey } = props.data.site.siteMetadata.languages;
+    const langKey = getCurrentLangKey(langs, defaultLangKey, url);
+    const homeLink = `/${langKey}`.replace(`/${defaultLangKey}/`, '/');
+    const langsMenu = getLangs(langs, langKey, getUrlForLang(homeLink, url));
 
 
-        <div className="content">
-          <div className={styles.headerOffset} />
-          {children}
+    return (
+      <IntlProvider
+        locale={langKey}
+        messages={messages[langKey]}
+      >
+        <div>
+          <Helmet
+            title="Portfolio of Julien Bloit"
+            meta={[
+              { name: 'description', content: 'Sample' },
+              { name: 'keywords', content: 'sample, something' },
+            ]}
+          />
+
+          <header>
+            <Link to={`/`} ><h1 className={styles.title}>{props.data.site.siteMetadata.title} </h1></Link>
+            <input type="checkbox" id="navToggle" className={styles.navToggle} />
+            <nav>
+              <ul>
+                <li><Link to={`/` + langKey + `/projects/`}><FormattedMessage id="nav_projects" /></Link></li>
+                <li><Link to={`/` + langKey + `/lab/`}><FormattedMessage id='nav_lab' /></Link></li>
+                <li> <Link to={`/` + langKey + `/about/`}><FormattedMessage id='nav_about' /></Link></li>
+                <li><Link to={`/` + langKey + `/contact/`}><FormattedMessage id='nav_contact' /></Link></li>
+                <li><SelectLanguage langs={langsMenu} /></li>
+              </ul>
+
+            </nav>
+
+            <label for="navToggle" className={styles.navToggleLabel}>
+              <span></span>
+            </label>
+          </header>
+
+
+          <div className="content">
+            <div className={styles.headerOffset} />
+            {children}
+
+          </div>
+          {console.log(langsMenu)}
+          <Footer langs={langsMenu} />
 
         </div>
-          {console.log(langsMenu)}
-        <Footer langs={langsMenu} />
-
-      </div>
-    </IntlProvider>
-  )
-  
+      </IntlProvider>
+    )
+  } else {
+    return null
+  }
 }
 
 
