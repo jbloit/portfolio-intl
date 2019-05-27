@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Footer from '../components/Footer'
+import SelectLanguage from '../components/SelectLanguage'
 import Helmet from 'react-helmet'
 import { getCurrentLangKey, getLangs, getUrlForLang } from 'ptz-i18n';
 import { StaticQuery, Link, graphql } from "gatsby"
@@ -51,8 +52,11 @@ const Layout = (props) => {
               <li><Link to={`/` + langKey + `/lab/`}><FormattedMessage id='nav_lab' /></Link></li>
               <li> <Link to={`/` + langKey + `/about/`}><FormattedMessage id='nav_about' /></Link></li>
               <li><Link to={`/` + langKey + `/contact/`}><FormattedMessage id='nav_contact' /></Link></li>
+              <li><SelectLanguage langs={langsMenu}/></li>    
             </ul>
+            
           </nav>
+
           <label for="navToggle" className={styles.navToggleLabel}>
             <span></span>
           </label>
@@ -64,8 +68,9 @@ const Layout = (props) => {
           {children}
 
         </div>
-
+          {console.log(langsMenu)}
         <Footer langs={langsMenu} />
+
       </div>
     </IntlProvider>
   )

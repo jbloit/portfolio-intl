@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-import { FormattedMessage } from 'react-intl';
+import styles from "./selectLanguage.module.css";
 
 const SelectLanguage = (props) => {
 
@@ -9,19 +9,19 @@ const SelectLanguage = (props) => {
 
     <div>
     <Link to={lang.link} key={lang.langKey}>
-     
         {lang.langKey}
-    
     </Link> 
     </div>
   );
 
   return (
 
-    <div>
+    <div className={styles.selectLanguage}>
 
       <ul>
+        <span>
         {links}
+        </span>
       </ul>
 
     </div>
