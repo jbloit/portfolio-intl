@@ -6,7 +6,10 @@ import styles from "./projects.module.css";
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
+    <div className={styles.intro}>
   <h1>Mes projets</h1>
+  <p>Une liste de projets présentés publiquement auxquels j'ai collaboré de près ou de loin.</p>
+  </div>
     <div className={styles.projects}>
       {props.data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id} className={styles.projectThumb}>

@@ -1,10 +1,10 @@
 ---
-title: "Pitch Pong"
+title: "Bestioles"
 date: "2019-03-19"
 type: "lab"
-abstract: "A different kind of pong"
+abstract: "Bestioles audio reactives à la voix"
 client: "ME"
-thumbnail: "../img/pitchPong/pitchPong_sketch.png"
+thumbnail: "../img/bestioles/bestioles.png"
 ---
 FR FR FR FR
 # Enjeux 

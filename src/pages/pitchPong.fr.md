@@ -3,6 +3,8 @@ title: "Pitch Pong"
 date: "2019-03-19"
 type: "lab"
 abstract: "A different kind of pong"
+client: "ME"
+thumbnail: "../img/pitchPong/pitchPong_sketch.png"
 ---
 FR FR FR FR
 # Enjeux 
