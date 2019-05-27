@@ -5,7 +5,9 @@ import styles from "./footer.module.css";
 
 const Footer = (props) => (
   <div className={styles.footer}>
-      <SelectLanguage langs={props.langs} />
+      <SelectLanguage langs={props.langs}/>
+      <p>I coded this website with Gatsby. Get the source here.</p>
+
   </div>
 )
 
