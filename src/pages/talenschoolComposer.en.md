@@ -1,10 +1,10 @@
 ---
-title: "T@lenschool - Jouer Ensemble"
+title: "T@lenschool - Composer"
 date: "2018-04-19"
 type: "project"
 abstract: "des applis pédagogiques"
 client: "Les Talens Lyriques"
-thumbnail: "../img/talenschool/App01-Capture-592x419@2x.png"
+thumbnail: "../img/talenschool/at2_sequencer.png"
 
 ---
 
