@@ -1,8 +1,8 @@
 ---
 title: "T@lenschool - Composer"
-date: "2018-04-19"
+date: "2018-09-01"
 type: "project"
-abstract: "des applis pédagogiques"
+abstract: "Exploration de thèmes et variations baroques"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/App02-Capture-592x419@2x.png"
 

@@ -14,8 +14,8 @@ const IndexPage = (props) => (
       {props.data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id} className={styles.projectThumb}>
           <h3>{node.frontmatter.title}</h3>
-          <h4>{node.frontmatter.client}</h4>
-          <p>{node.frontmatter.abstract}</p>
+          {/* <h4>{node.frontmatter.client}</h4> */}
+          <h4>{node.frontmatter.abstract}</h4>
           <Link to={node.fields.slug}>
             <Img
               fluid={node.frontmatter.thumbnail.childImageSharp.fluid}

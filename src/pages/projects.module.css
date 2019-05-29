@@ -40,6 +40,14 @@
   margin-left: 0%;
   margin-bottom: 0.5rem;
 }
+
+.projectThumb > h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  padding-bottom: 0.5rem;
+}
+
 .projectThumb > ul {
   margin: 0 0 1rem;
 }

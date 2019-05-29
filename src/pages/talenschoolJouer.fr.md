@@ -1,8 +1,8 @@
 ---
 title: "T@lenschool - Jouer Ensemble"
-date: "2018-04-19"
+date: "2018-09-01"
 type: "project"
-abstract: "des applis pédagogiques"
+abstract: "Orchestre Baroque sur tablettes connectées"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/App01-Capture-592x419@2x.png"
 

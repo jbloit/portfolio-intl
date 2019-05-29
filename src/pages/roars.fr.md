@@ -1,14 +1,13 @@
 ---
-title: "RRRRRRRRRRRR"
-date: "2019-04-19"
+title: "Proposal for Resuscitating Prehistoric Creatures"
+date: "2012-04-18"
 type: "project" 
-abstract: "Mise en place de blablablalb"
+abstract: "Le son imaginaire de créatures préhistoriques"
 client: "M Humeau"
 thumbnail: "../img/humeauPrehistoricCreatures/roarsModel.png"
 roles: ["composition", "interactive audio"]
 tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
 ---
-J'ai travaillé à la mise en place de l'expo éphémère La Petite Fabrique à la Philharmonie de Paris.
 
 
 # Enjeux 

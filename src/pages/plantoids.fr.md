@@ -1,9 +1,9 @@
 ---
 title: "Plantoids"
-date: "2018-08-01"
+date: "2018-08-26"
 type: "project"
 where: "Burning Man Festival 2018"
-abstract: "Audio arch blabla"
+abstract: "Musique pour plantes d'acier à Burning Man"
 client: "Burning Man"
 thumbnail: "../img/plantoids/plantoidz.jpg"
 roles: ["composition", "interactive audio"]

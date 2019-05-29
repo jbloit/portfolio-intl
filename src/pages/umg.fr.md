@@ -1,10 +1,10 @@
 ---
-title: "La Petite Fabrique"
-date: "2019-04-19"
+title: "Urban Musical Game"
+date: "2011-07-16"
 type: "project" 
-abstract: "Jeux musicaux à la Philharmonie de Paris"
-client: "La Philharmonie de Paris"
-thumbnail: "../img/philharmoniePetiteFabrique/train_1.jpg"
+abstract: "Production de musique à partir de la chantée"
+client: "Humtap Inc."
+thumbnail: "../img/urbanMusicalGame/fieldPics.png"
 roles: ["composition", "interactive audio"]
 tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
 ---
@@ -21,9 +21,6 @@ sdlfkj sdlkj
 ## Et aussi
 
 ![Studio Electro](../img/philharmoniePetiteFabrique/electro.jpg)
-
-##thumbnail: "../img/philharmoniePetiteFabrique/band_score.jpg"
-
 
 sqdlk sdlfkj sdf
 

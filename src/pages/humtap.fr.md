@@ -1,8 +1,8 @@
 ---
-title: "Humtap App"
+title: "Humtap"
 date: "2018-01-01"
 type: "project" 
-abstract: "Mise en place de blablablalb"
+abstract: "Musique produite à partir de voix chantée"
 client: "Humtap Inc."
 thumbnail: "../img/humtap/humtapWeb.png"
 roles: ["composition", "interactive audio"]
