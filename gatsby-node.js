@@ -1,22 +1,5 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
-// called whenever a new node is created or updated
-
-// come up with a slug from the file name of the node (the .md file in this case)
-// and add a 'slug' field to that node
-exports.onCreateNode = ({ node, getNode, actions }) => {
-    const { createNodeField } = actions
-    if (node.internal.type === `MarkdownRemark`) {
-        const slug = createFilePath({ node, getNode, basePath: `pages` })
-        createNodeField({
-            node,
-            name: `slug`,
-            value: slug,
-        })
-
-    }
-}
-
 
 // call the createPages API to add pages 
 exports.createPages = ({ graphql, actions }) => {

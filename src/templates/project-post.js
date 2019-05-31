@@ -15,9 +15,14 @@ export default (props) => {
         <ul class="postMetaData">
         <li>Pour : {post.frontmatter.client}</li>
         <li>Rôle : 
-          {post.frontmatter.roles.map((role) => (
+        {console.log("--------------")} 
+          {console.log(post.frontmatter.title)}
+          {
+            
+            post.frontmatter.roles.map((role) => (
           " #" + role + " "
-      ))}
+      ))
+      }
         
         </li>
         <li>Sortie : {post.frontmatter.date}</li>

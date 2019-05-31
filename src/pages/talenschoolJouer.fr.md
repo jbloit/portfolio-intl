@@ -5,7 +5,6 @@ type: "project"
 abstract: "Orchestre Baroque sur tablettes connectées"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/App01-Capture-592x419@2x.png"
-support: "app mobile"
 roles: ["conception", "développemment"]
 
 ---

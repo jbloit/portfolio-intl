@@ -5,7 +5,7 @@ type: "project"
 abstract: "Exploration de thèmes et variations baroques"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/App02-Capture-592x419@2x.png"
-
+roles: ["conception", "développemment"]
 ---
 
 Conception et développement des apps pour Android et iOS

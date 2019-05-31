@@ -5,7 +5,7 @@ type: "project"
 abstract: "Music Education apps"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/at1_image.png"
-
+roles: ["conception", "développemment"]
 ---
 Talenschool EN
 
