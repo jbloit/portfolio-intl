@@ -13,13 +13,10 @@ export default (props) => {
       <div >
         <h1> {post.frontmatter.title}</h1>
         <ul class="postMetaData">
+          <li>Support : {post.frontmatter.support} </li>
         <li>Pour : {post.frontmatter.client}</li>
         <li>Rôle : 
-        {console.log("--------------")} 
-          {console.log(post.frontmatter.title)}
-          {
-            
-            post.frontmatter.roles.map((role) => (
+          {post.frontmatter.roles.map((role) => (
           " #" + role + " "
       ))
       }
@@ -43,6 +40,7 @@ export const query = graphql`
         date(formatString: "YYYY")
         client
         roles
+        support
       }
     }
   }
