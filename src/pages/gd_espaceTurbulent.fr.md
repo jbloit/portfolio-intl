@@ -2,31 +2,36 @@
 title: "L'Espace Turbulent"
 date: "2001-09-20"
 type: "project" 
+support: "Installation"
 abstract: "Exploration sensible du chaos"
-client: "Groupe Dunes"
+client: "groupedunes"
 thumbnail: "../img/groupeDunes/groupedunes_turbulent_1.png"
-roles: ["Conduite audio et vidéo"]
+roles: ["#développement Max/MSP"]
 tech: ["Max/MSP"]
 ---
 
-Ferme du Buisson, Noisiel
-Une production du groupedunes avec La Ferme du Buisson et Arte (Festival Temps d'Images)
 
-[Le Groupe Dunes](http://www.groupedunes.fr)
+## Principe
 
-# Enjeux 
-sdlfkj sdlkj 
+Une roue de Lorenz, consistuée de sceaux percés, tourne d'une manière chaotique, qui semble aléatoire. Le mouvement de la roue est utilisé pour piloter les séquences video et sonores projetées dans l'espace de la Caserne Dalhousie.
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
 
-## Et aussi
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_1.png)
 
-![Studio Electro](../img/philharmoniePetiteFabrique/electro.jpg)
 
-sqdlk sdlfkj sdf
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_2.png)
 
-```
-sdfsdfsdf
-```
+
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_3.png)
+
+
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_4.png)
+
+
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_5.png)
+
+
+
+## Références
+- Caserne Dalhousie, Québec, du 20 au 29 secptembre 2001.
+- le site du [groupedunes](http://www.groupedunes.fr)
