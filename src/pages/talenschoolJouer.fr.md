@@ -6,7 +6,8 @@ support: "application mobile (iOS & Android)"
 abstract: "Orchestre Baroque sur tablettes connectées"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/App01-Capture-592x419@2x.png"
-roles: ["conception", "développemment"]
+role: "conception et développemment"
+tech: ["Swift", "Objective-C", "Kotlin", "Java", "C++", "Link API"]
 
 ---
 

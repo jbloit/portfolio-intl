@@ -5,7 +5,7 @@ type: "project"
 abstract: "Jeux musicaux à la Philharmonie de Paris"
 client: "La Philharmonie de Paris"
 thumbnail: "../img/philharmoniePetiteFabrique/train_1.jpg"
-roles: ["composition", "interactive audio"]
+role: "interactive audio & composition"
 tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
 ---
 J'ai travaillé à la mise en place de l'expo éphémère La Petite Fabrique à la Philharmonie de Paris.

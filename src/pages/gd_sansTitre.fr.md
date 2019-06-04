@@ -2,31 +2,32 @@
 title: "Sans Titre Provisoire"
 date: "2002-02-07"
 type: "project" 
+support: "Installation"
 abstract: "Chorégraphie d'images et de sons"
-client: "Humtap Inc."
+client: "groupedunes"
 thumbnail: "../img/groupeDunes/groupedunes_sanstitre_4.png"
-roles: ["Conduite audio et vidéo"]
+role: "développement d'un système de conduite ad hoc"
 tech: ["Max/MSP"]
 ---
 
-Ferme du Buisson, Noisiel
-Une production du groupedunes avec La Ferme du Buisson et Arte (Festival Temps d'Images)
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_1.png)
 
-[Le Groupe Dunes](http://www.groupedunes.fr)
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_2.png)
 
-# Enjeux 
-sdlfkj sdlkj 
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_3.png)
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_4.png)
 
-## Et aussi
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_5.png)
 
-![Studio Electro](../img/philharmoniePetiteFabrique/electro.jpg)
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_6.png)
 
-sqdlk sdlfkj sdf
 
-```
-sdfsdfsdf
-```
+<div class="iframe-container">
+<iframe src="https://player.vimeo.com/video/340165738" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+
+## Références
+- Ferme du Buisson, Noisiel, du 7 au 10 février 2002.
+- Une production du [groupedunes](http://www.groupedunes.fr) avec La Ferme du Buisson et Arte (Festival Temps d'Images)

@@ -6,7 +6,8 @@ support: "application mobile (iOS & Android)"
 abstract: "Exploration de thèmes et variations baroques"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/App02-Capture-592x419@2x.png"
-roles: ["conception", "développemment"]
+role: "conception et développemment"
+tech: ["Swift", "Objective-C", "Kotlin", "Java", "C++", "Link API"]
 ---
 
 Le projet T@lenschool est né d'une collaboration entre l'ensemble baroque *Les Talens Lyriques* et le collectif *OnOffOn*. Les Talens Lyriques répètent régulièrement dans des collèges parisiens. De ces résidences naissent des actions pédagogiques de familiarisation à l'orchestre et au répertoire baroque. 
@@ -43,27 +44,4 @@ Dans la vidéo ci-dessous, on voit le thème de la Folia joué en boucle sur 16 
 - Membres du collectif OnOffOn: [Clément Lebrun](http://www.clementlebrun.com/), [Matthias Demoucron](http://www.fingerfiddleapp.com/)
 - Télécharger [la version Android](https://play.google.com/store/apps/details?id=com.onoffon.talenschool.atelier2&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
 - Télécharger [la version iOS](https://itunes.apple.com/fr/app/composer/id1233184310)
-
-
-
-
-
-
-
-
-[La page du projet](https://www.lestalenslyriques.com/applis-talenschool/)
-
-[Jouer ensemble sur l'app store](https://itunes.apple.com/fr/app/jouer-ensemble/id1233988131)
-
-
-[Composer sur l'app store](https://itunes.apple.com/fr/app/composer/id1233184310)
-
-## Et aussi
-
-
-
-
-
-
-
 

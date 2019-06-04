@@ -5,7 +5,8 @@ type: "project"
 abstract: "Music Education apps"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/at1_image.png"
-roles: ["conception", "développemment"]
+role: "conception & développemment"
+tech: ["Swift", "Objective-C", "Kotlin", "Java", "C++", "Link API"]
 ---
 Talenschool EN
 

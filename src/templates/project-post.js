@@ -15,14 +15,14 @@ export default (props) => {
         <ul class="postMetaData">
           <li>Support : {post.frontmatter.support} </li>
         <li>Pour : {post.frontmatter.client}</li>
-        <li>Rôle : 
-          {post.frontmatter.roles.map((role) => (
-          " #" + role + " "
+        <li>Publication : {post.frontmatter.date}</li>
+        <li>Rôle : {post.frontmatter.role}</li>
+        <li>Tech. : 
+          {post.frontmatter.tech.map((aTech) => (
+          " " + aTech + " "
       ))
       }
-        
         </li>
-        <li>Sortie : {post.frontmatter.date}</li>
         </ul>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
@@ -39,8 +39,9 @@ export const query = graphql`
         title
         date(formatString: "YYYY")
         client
-        roles
+        role
         support
+        tech
       }
     }
   }

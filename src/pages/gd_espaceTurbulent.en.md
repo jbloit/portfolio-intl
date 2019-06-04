@@ -5,7 +5,7 @@ type: "project"
 abstract: "Exploration sensible du chaos"
 client: "Groupe Dunes"
 thumbnail: "../img/groupeDunes/groupedunes_turbulent_1.png"
-roles: ["Conduite audio et vidéo"]
+role: "Conduite audio et vidéo"
 tech: ["Max/MSP"]
 ---
 
