@@ -96,7 +96,10 @@ ul {
 .postMetaData {
   color: var(--p1);
   font-weight: 800;
+    // background-image:url(../img/greenTiles.png);
   background-image:url(../img/blueTiles.png);
+  // background-color: var(--p6);
+
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1em;
@@ -105,6 +108,7 @@ ul {
   margin-bottom: 2em;
   list-style: none;
 }
+
 
 // Make responsive embeded videos
 .iframe-container{
