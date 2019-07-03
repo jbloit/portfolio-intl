@@ -2,7 +2,7 @@
 title: "Urban Musical Game"
 date: "2011-07-16"
 type: "project" 
-abstract: "Production de musique à partir de la chantée"
+abstract: "Un ballon comme instrument de musique"
 client: "Humtap Inc."
 thumbnail: "../img/urbanMusicalGame/fieldPics.png"
 roles: ["composition", "interactive audio"]
