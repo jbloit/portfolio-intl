@@ -5,7 +5,8 @@ type: "project"
 abstract: "des applis pédagogiques"
 client: "Les Talens Lyriques"
 thumbnail: "../img/talenschool/at2_sequencer.png"
-
+role: "conception & développemment"
+tech: tech: ["Swift", "Objective-C", "Kotlin", "Java", "C++", "Link API"]
 ---
 
 Conception et développement des apps pour Android et iOS

@@ -5,7 +5,7 @@ type: "project"
 abstract: "Setup blabla"
 client: "La Philharmonie de Paris"
 thumbnail: "../img/philharmoniePetiteFabrique/band_score.jpg"
-roles: ["composition", "interactive audio"]
+role: "interactive audio & composition" 
 tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
 ---
 PETITE FABRIQUE EN
