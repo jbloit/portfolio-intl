@@ -5,7 +5,7 @@ type: "project"
 abstract: "Abs EN"
 client: "Humtap Inc."
 thumbnail: "../img/humtap/humtapWeb.png"
-role: "composition", "interactive audio"
+role: "interactive audio"
 tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
 ---
 J'ai travaillé à la mise en place de l'expo éphémère La Petite Fabrique à la Philharmonie de Paris.

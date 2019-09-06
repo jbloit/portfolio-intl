@@ -2,14 +2,8 @@
 title: "Urban Musical Game"
 date: "2011-07-16"
 type: "project" 
-<<<<<<< HEAD
 abstract: "Un ballon comme instrument de musique"
 client: "Humtap Inc."
-=======
-abstract: "Terrain de jeu musical"
-client: "IRCAM, Centre Pompidou"
-support: "Installation"
->>>>>>> 4a6b17f0df783c638c894625dceac0d19a0b6405
 thumbnail: "../img/urbanMusicalGame/fieldPics.png"
 role: "Architecture du système musical interactif"
 tech: ["Max/MSP"]
