@@ -2,7 +2,6 @@
 title: "Sans Titre Provisoire"
 date: "2002-02-07"
 type: "project" 
-<<<<<<< HEAD
 abstract: "Chorégraphie architecturale d'images et de sons"
 client: "Humtap Inc."
 thumbnail: "../img/groupeDunes/groupedunes_sanstitre_4.png"
@@ -31,12 +30,3 @@ sqdlk sdlfkj sdf
 ```
 sdfsdfsdf
 ```
-=======
-abstract: "Chorégraphie d'images et de sons"
-client: "Humtap Inc."
-thumbnail: "../img/groupeDunes/groupedunes_sanstitre_4.png"
-role: "Conduite audio et vidéo"
-tech: ["Max/MSP"]
----
-
->>>>>>> 4a6b17f0df783c638c894625dceac0d19a0b6405

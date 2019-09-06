@@ -2,14 +2,8 @@
 title: "Sans Titre Provisoire"
 date: "2002-02-07"
 type: "project" 
-<<<<<<< HEAD
 abstract: "Chorégraphie architecturale d'images et de sons"
 client: "Humtap Inc."
-=======
-support: "Installation"
-abstract: "Chorégraphie d'images et de sons"
-client: "groupedunes"
->>>>>>> 4a6b17f0df783c638c894625dceac0d19a0b6405
 thumbnail: "../img/groupeDunes/groupedunes_sanstitre_4.png"
 role: "développement d'un système de conduite ad hoc"
 tech: ["Max/MSP"]
