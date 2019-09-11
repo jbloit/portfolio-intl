@@ -7,7 +7,7 @@ abstract: "Musique pour plantes d'acier à Burning Man"
 client: "Burning Man"
 thumbnail: "../img/plantoids/plantoidz.jpg"
 role: "composition & interactive audio"
-tech: ["superCollider"]
+tech: ["SuperCollider"]
 ---
 
 Burning man

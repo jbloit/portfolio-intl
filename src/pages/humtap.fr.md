@@ -5,8 +5,8 @@ type: "project"
 abstract: "Musique produite à partir de voix chantée"
 client: "Humtap Inc."
 thumbnail: "../img/humtap/humtapWeb.png"
-role: "a lot"
-tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
+role: "Technical co-founder"
+tech: ["iOS", "C++", "Python"]
 ---
 J'ai travaillé à la mise en place de l'expo éphémère La Petite Fabrique à la Philharmonie de Paris.
 

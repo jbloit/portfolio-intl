@@ -6,7 +6,7 @@ abstract: "Le son imaginaire de créatures préhistoriques"
 client: "M Humeau"
 thumbnail: "../img/humeauPrehistoricCreatures/roarsModel.png"
 role: "composition & interactive audio"
-tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
+tech: ["Max/MSP"]
 ---
 
 

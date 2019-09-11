@@ -1,23 +1,15 @@
 ---
-title: "Bestioles"
-date: "2019-03-19"
+support: "Installation"
+title: "Créatures"
+date: "2012-06-01"
 type: "lab"
-abstract: "Bestioles audio reactives à la voix"
-client: "ME"
+abstract: "Créatures animées par la voix"
 thumbnail: "../img/bestioles/bestioles.png"
+tech: ["Max/MSP", "Processing", "Machine Learning"]
 ---
-FR FR FR FR
-# Enjeux 
-sdlfkj sdlkj 
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
+Esquisse de travail pour une collaboration avec la vocaliste Guylaine Cosseron. Les créatures apparaissent et sont animées au gré des fluctuations sonores de la voix.
 
-## Et aussi
-
-sqdlk sdlfkj sdf
-
-```
-sdfsdfsdf
-```
+<div class="iframe-container">
+<iframe src="https://player.vimeo.com/video/46939188" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>

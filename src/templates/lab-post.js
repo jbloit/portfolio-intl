@@ -9,8 +9,18 @@ export default (props) => {
   const post = props.data.markdownRemark
   return (
     <Layout location={props.location}>
-      <div>
-        <h1>{post.frontmatter.title}</h1>
+      <div >
+        <h1> {post.frontmatter.title}</h1>
+        <ul class="postMetaData">
+          <li>Support : {post.frontmatter.support} </li>
+        <li>Publication : {post.frontmatter.date}</li>
+        <li>Tech. : 
+          {post.frontmatter.tech.map((aTech) => (
+          " " + aTech + " "
+      ))
+      }
+        </li>
+        </ul>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </Layout>
@@ -24,6 +34,9 @@ export const query = graphql`
       html
       frontmatter {
         title
+        date(formatString: "YYYY")
+        tech
+        support
       }
     }
   }
