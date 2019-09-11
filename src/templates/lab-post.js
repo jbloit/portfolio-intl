@@ -3,6 +3,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../layouts/layout"
+import { IntlProvider, FormattedMessage, addLocaleData } from 'react-intl';
 
 
 export default (props) => {
@@ -12,9 +13,9 @@ export default (props) => {
       <div >
         <h1> {post.frontmatter.title}</h1>
         <ul class="postMetaData">
-          <li>Support : {post.frontmatter.support} </li>
-        <li>Publication : {post.frontmatter.date}</li>
-        <li>Tech. : 
+          <li><FormattedMessage id="meta_support" /> : {post.frontmatter.support} </li>
+        <li><FormattedMessage id="meta_date" /> : {post.frontmatter.date}</li>
+        <li><FormattedMessage id="meta_tech" /> : 
           {post.frontmatter.tech.map((aTech) => (
           " " + aTech + " "
       ))

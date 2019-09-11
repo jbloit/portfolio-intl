@@ -1,12 +1,12 @@
 ---
 title: "Pitch Pong"
+support: "Installation"
 date: "2019-03-19"
 type: "lab"
 abstract: "Un jeu de Pong contrôlé par la voix"
 thumbnail: "../img/pitchPong/pitchPong_sketch.png"
 tech: ["SuperCollider", "Processing"]
 ---
-
 
 FR FR FR FR
 # Enjeux 

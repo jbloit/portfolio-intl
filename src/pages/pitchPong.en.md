@@ -1,12 +1,14 @@
 ---
 title: "Pitch Pong"
+support: "Installation"
 date: "2019-03-19"
 type: "lab"
-abstract: "A different kind of pong"
-client: "ME"
+abstract: "Un jeu de Pong contrôlé par la voix"
 thumbnail: "../img/pitchPong/pitchPong_sketch.png"
+tech: ["SuperCollider", "Processing"]
 ---
-FR FR FR FR
+
+EN EN EN 
 # Enjeux 
 sdlfkj sdlkj 
 
@@ -18,6 +20,16 @@ sdlfkj sdlkj
 
 sqdlk sdlfkj sdf
 
+
+sdflkj sdflkj 
+
+
+sdfkmkl,   
+
 ```
 sdfsdfsdf
 ```
+<div class="iframe-container">
+<iframe src="https://player.vimeo.com/video/316172056" width="640" height="430" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+

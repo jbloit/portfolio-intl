@@ -74,6 +74,8 @@ p {
 
   margin-top: 2em;
   margin-bottom: 2em;
+
+  font-size: 1.5em;
 }
 h1 {
   margin-top: 1em;
@@ -97,8 +99,8 @@ ul {
   color: var(--p1);
   font-weight: 800;
     // background-image:url(../img/greenTiles.png);
-  background-image:url(../img/blueTiles.png);
-  // background-color: var(--p6);
+  //background-image:url(../img/blueTiles.png);
+   background-color: var(--p4);
 
   padding-left: 2em;
   padding-right: 2em;
