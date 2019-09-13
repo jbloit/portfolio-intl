@@ -70,7 +70,6 @@ const Layout = (props) => {
             {children}
 
           </div>
-          {console.log(langsMenu)}
           <Footer langs={langsMenu} />
 
         </div>

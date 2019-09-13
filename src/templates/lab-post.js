@@ -16,8 +16,9 @@ export default (props) => {
           <li><FormattedMessage id="meta_support" /> : {post.frontmatter.support} </li>
         <li><FormattedMessage id="meta_date" /> : {post.frontmatter.date}</li>
         <li><FormattedMessage id="meta_tech" /> : 
-          {post.frontmatter.tech.map((aTech) => (
-          " " + aTech + " "
+
+          {post.frontmatter.tech.map((aTech, index) => (
+          " " + aTech + " //" 
       ))
       }
         </li>

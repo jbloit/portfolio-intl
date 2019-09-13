@@ -21,17 +21,13 @@ const IndexPage = (props) => (
               fluid={node.frontmatter.thumbnail.childImageSharp.fluid}
             />
           </Link>
-
         </div>
-
       ))}
     </div>
   </Layout>
 )
 
 export default IndexPage
-
-
 
 export const query = graphql`   
     query{
@@ -50,7 +46,6 @@ export const query = graphql`
                           ...GatsbyImageSharpFluid
                         }
                       }
-                
                 }
                }
                fields{

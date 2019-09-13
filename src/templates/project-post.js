@@ -20,7 +20,7 @@ export default (props) => {
         <li><FormattedMessage id="meta_role" /> : {post.frontmatter.role}</li>
         <li><FormattedMessage id="meta_tech" /> : 
           {post.frontmatter.tech.map((aTech) => (
-          " " + aTech + " "
+          " " + aTech + " //"
       ))
       }
         </li>
