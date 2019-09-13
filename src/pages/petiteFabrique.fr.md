@@ -5,30 +5,28 @@ support: "Installation"
 type: "project" 
 abstract: "Jeux musicaux à la Philharmonie de Paris"
 client: "La Philharmonie de Paris"
-thumbnail: "../img/philharmoniePetiteFabrique/train_1.jpg"
+thumbnail: "../img/philharmoniePetiteFabrique/COMPOSITRAIN_5.jpg"
 role: "interactive audio & composition"
 tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
 ---
 
-J'ai travaillé à la mise en place de l'expo éphémère La Petite Fabrique à la Philharmonie de Paris.
+Un nouvel espace dédié aux enfants de 4 à 10 ans est prévu à [La Philharmonie de Paris](https://philharmoniedeparis.fr/fr). Il s'agit de proposer une trentaine d'installations qui suscitent la curiosité musicale des petits à travers des jeux libres. 
+
+J'ai fait partie de l'équipe menée par [BrutPop](http://brutpop.blogspot.com/), chargée de d'imaginer et prototyper une dizaine de ces installations pour les faire valider par l'usage avec des enfants en conditions réelles. 
+
+Au cours des vacances de Pâques, l'exposition a été visitée par un millier d'enfants.
+
+![Compositrain](../img/philharmoniePetiteFabrique/train_1.jpg)
+
+![Studio Electro](../img/philharmoniePetiteFabrique/STUDIO_ELECTRO_0.jpg)
+
+![Club Rock](../img/philharmoniePetiteFabrique/CLUB_DE_ROCK_2.jpg)
+
+![Pitch Pong](../img/philharmoniePetiteFabrique/pitchPong.jpg)
 
 
-# Enjeux 
-sdlfkj sdlkj 
+<div class="iframe-container">
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
+<iframe width="640" height="360" src="https://www.youtube.com/embed/8XAhJXAWRmU" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Et aussi
-
-![Studio Electro](../img/philharmoniePetiteFabrique/electro.jpg)
-
-##thumbnail: "../img/philharmoniePetiteFabrique/band_score.jpg"
-
-
-sqdlk sdlfkj sdf
-
-```
-sdfsdfsdf
-```
+</div>
