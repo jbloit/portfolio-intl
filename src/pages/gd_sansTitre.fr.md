@@ -1,4 +1,5 @@
 ---
+support: "Installation"
 title: "Sans Titre Provisoire"
 date: "2002-02-07"
 type: "project" 
@@ -8,6 +9,8 @@ thumbnail: "../img/groupeDunes/groupedunes_sanstitre_4.png"
 role: "développement d'un système de conduite ad hoc"
 tech: ["Max/MSP"]
 ---
+
+Installation de vidéos et de sons en multiphonie sur une large superficie en extérieur. J'ai programmé le système de conduite en Max/MSP.
 
 ![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_1.png)
 
