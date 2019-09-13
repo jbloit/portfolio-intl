@@ -8,21 +8,12 @@ thumbnail: "../img/pitchPong/pitchPong_sketch.png"
 tech: ["SuperCollider", "Processing"]
 ---
 
-FR FR FR FR
-# Enjeux 
-sdlfkj sdlkj 
+L'idée: contrôler le jeu classique de Pong avec la hauteur de la voix.
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
+J'ai réutilisé l'idée pour le projet de [La Petite Fabrique](../petiteFabrique/).
 
-## Et aussi
+Ci-dessous une vidéo du prototype dans laquelle je joue avec mon fils de 5 ans. C'est notre premier essai à tous les deux.
 
-sqdlk sdlfkj sdf
-
-```
-sdfsdfsdf
-```
 <div class="iframe-container">
 <iframe src="https://player.vimeo.com/video/316172056" width="640" height="430" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
