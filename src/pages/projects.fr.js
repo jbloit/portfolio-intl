@@ -7,8 +7,8 @@ import styles from "./projects.module.css";
 const IndexPage = (props) => (
   <Layout location={props.location}>
     <div className={styles.intro}>
-      <h1>Mes projets</h1>
-      <p>Une liste de projets présentés publiquement auxquels j'ai collaboré de près ou de loin.</p>
+      <h1>Projets</h1>
+      <p>Une sélection de projets publiés auxquels j'ai collaboré.</p>
     </div>
     <div className={styles.projects}>
       {props.data.allMarkdownRemark.edges.map(({ node }) => (
