@@ -4,10 +4,14 @@ import Layout from "../layouts/layout"
 
 const IndexPage = (props) => (
   <Layout location={props.location}>
-            <br/>
+          <div className="plain">
+    
+    <p> Je construis des dispositifs pour modeler la matière musicale, à des fins artistiques, pédagogiques ou récréatives.
+      </p>
+  
+  </div>
       
-            Je construis des dispositifs pour modeler la matière musicale, à des fins artistiques, pédagogiques ou récréatives.
-     
+           
 
   </Layout>
 )
