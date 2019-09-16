@@ -70,7 +70,8 @@ const Layout = (props) => {
             {children}
 
           </div>
-          <Footer langs={langsMenu} />
+          
+          {/* <Footer langs={langsMenu} /> */}
 
         </div>
       </IntlProvider>
