@@ -50,21 +50,21 @@
     text-decoration: none;
   }
 
-
+  .about {
+    img {
+      border-radius: 50%;
+      width: 20%;
+      align-content: center;
+      text-align: center;
+    }
+  }
   .plain{
-    height: 60vh;
+    // height: 60vh;
   }
 
-
-
-
   .content {
-    height: 80vh;
     background-size: cover;
     position: relative;
-    img{
-      width: 100%;
-    }
   }
 
 
