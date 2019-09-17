@@ -54,7 +54,7 @@ const Layout = (props) => {
                 <li><Link to={`/` + langKey + `/lab/`}><FormattedMessage id='nav_lab' /></Link></li>
                 <li> <Link to={`/` + langKey + `/about/`}><FormattedMessage id='nav_about' /></Link></li>
                 <li><Link to={`/` + langKey + `/contact/`}><FormattedMessage id='nav_contact' /></Link></li>
-                <li><SelectLanguage langs={langsMenu} /></li>
+                {/* <li><SelectLanguage langs={langsMenu} /></li> */}
               </ul>
 
             </nav>
