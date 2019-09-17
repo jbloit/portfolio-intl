@@ -60,19 +60,19 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-row: 50px;
     p{
-      color: var(--yellow);
+      color: var(--p1);
       text-align: center;
       margin-left: 0;
     } 
      h1{
-      color: var(--red);
+      color: var(--p1);
       text-align: center;
       margin-left: 0;
       margin-top: 2em;
     }
   
     .pitch{
-      background-color: var(--blue);
+      background-color: var(--p3);
     }
     img {
       display: block;
