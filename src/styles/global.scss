@@ -54,7 +54,29 @@
     text-decoration: none;
   }
 
+.skills{
 
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  text-align: left;
+  grid-auto-flow: dense;
+  margin: 1em;
+  
+  .skillset{
+    padding-left: 1em;
+    border-width:1px;
+    border-style: none  none solid none;
+    border-color:var(--p3);
+  }
+  .domain{
+    padding-right: 1em;
+    text-align: right;
+    // background-color: #CCA400;
+    border-width:1px;
+    border-style: none  none solid none;
+    border-color:var(--p3);
+  }
+}
   
   .cover {
     display: grid;
