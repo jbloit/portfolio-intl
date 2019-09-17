@@ -1,153 +1,143 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:100,200,400|Rock+Salt&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:100,200,400|Rock+Salt&display=swap");
 
 :root {
-    --cream: #f6efe5;
-    --faded-cream: #c0ae95;
-    --orange: #f2502a;
-    --red: #C60C01;
-    --yellow: #CCA400;
-    --blue: #011875; 
-    --light-grey: #bebdc2;
-    --dark-grey: #323232;
+  --cream: #f6efe5;
+  --faded-cream: #c0ae95;
+  --orange: #f2502a;
+  --red: #c60c01;
+  --yellow: #cca400;
+  --blue: #011875;
+  --light-grey: #bebdc2;
+  --dark-grey: #323232;
 
-    --p1: #FFFFFF;
-    --p2: #DDDDDD;
-    --p3: #BBBBBB;
-    --p4: #888888;
-    --p5: #666666;
-    --p6: #000000;
+  --p1: #ffffff;
+  --p2: #dddddd;
+  --p3: #bbbbbb;
+  --p4: #888888;
+  --p5: #666666;
+  --p6: #000000;
 
+  // --p1: #000000;
+  // --p2: #666666;
+  // --p3: #888888;
+  // --p4: #BBBBBB;
+  // --p5: #DDDDDD;
+  // --p6: #FFFFFF;
 
-    
-
-    // --p1: #000000;
-    // --p2: #666666;
-    // --p3: #888888;
-    // --p4: #BBBBBB;
-    // --p5: #DDDDDD;
-    // --p6: #FFFFFF;
-
-   
-    
-    --headerHeight: 5em;
-  }
-
-  *{
-    padding:0;
-    margin:0;
+  --headerHeight: 5em;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
 
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 80%;
-    background: var(--p1);
-    line-height: 1.2;
-    -webkit-font-smoothing:antialiased;
-    text-rendering: optimizeLegibility;
-  }
- 
-  a {
-    text-decoration: none;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80%;
+  background: var(--p1);
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
 
-.skills{
+a {
+  text-decoration: none;
+}
 
+.skills {
   display: grid;
   grid-template-columns: repeat(2, minmax(50px, 1fr));
   text-align: left;
   grid-auto-flow: dense;
   margin: 1em;
-  
-  .skillset{
+
+  .skillset {
     padding-left: 1em;
-    border-width:1px;
-    border-style: none  none solid none;
-    border-color:var(--p3);
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: var(--p3);
   }
-  .domain{
+  .domain {
     padding-right: 1em;
     text-align: right;
     // background-color: #CCA400;
-    border-width:1px;
-    border-style: none  none solid none;
-    border-color:var(--p3);
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: var(--p3);
   }
 }
-  
-  .cover {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-row: 50px;
-    
-    p{
-      color: var(--p5);
-      text-align: center;
-      margin-left: 0;
-    } 
-    h2{
-      text-align: center;
-      color: var(--p3)
-    }
-     h1{
-      color: var(--p5);
-      text-align: center;
-      margin-left: 0;
-      margin-top: 0em;
-      font-size: 3em;
-      // font-family: 'Shadows Into Light Two', cursive;
-      // font-family: 'Rock Salt', cursive;
-    }
-  
-    .pitch{
-      background-color: var(--p1);
-    }
-    img {
-      display: block;
-      width: 100%;
-      -webkit-box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
-      box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
-    }
-  }
-  
 
-  .plain{
+.cover {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  p {
+    color: var(--p5);
     text-align: center;
-    height: 100vh;
-    img{
-      width: 50vw;
-    }
-    background-color: --p6;
-    .about {
-      img {
-        border-radius: 50%;
-        // width: 20%;
-        width: 20vw;
-        float: left;
-        margin: 1em 1em 0;
-        shape-outside: circle();  
-      }
-      p{
-        text-align: left;
-      }
-    }
+    margin-left: 0;
+  }
+  h2 {
+    text-align: center;
+    color: var(--p3);
+  }
+  h1 {
+    color: var(--p5);
+    text-align: center;
+    margin-left: 0;
+    margin-top: 0em;
+    font-size: 3em;
+    // font-family: 'Shadows Into Light Two', cursive;
+    // font-family: 'Rock Salt', cursive;
   }
 
-  .content {
-    background-size: cover;
-    position: relative;
+  .pitch {
+    background-color: var(--p1);
   }
+  img {
+    display: block;
+    height: 70vh;
+    width: 100vw;
+    object-fit: cover;
+    -webkit-box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
+  }
+}
 
+.plain {
+  text-align: center;
+  height: 100vh;
+  img {
+    width: 50vw;
+  }
+  background-color: --p6;
+  .about {
+    img {
+      border-radius: 50%;
+      // width: 20%;
+      width: 20vw;
+      float: left;
+      margin: 1em 1em 0;
+      shape-outside: circle();
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
+
+.content {
+  background-size: cover;
+  position: relative;
+}
 
 .about {
   img {
     border-radius: 50%;
   }
 }
-
 
 // Global style used in posts
 p {
@@ -165,7 +155,7 @@ h1 {
 }
 h2 {
   padding-top: 1em;
-  text-align: center
+  text-align: center;
 }
 
 h3 {
@@ -179,13 +169,12 @@ ul {
   // font-size: 1.5em;
 }
 
-
 .postMetaData {
   color: var(--p1);
   font-weight: 800;
-    // background-image:url(../img/greenTiles.png);
+  // background-image:url(../img/greenTiles.png);
   //background-image:url(../img/blueTiles.png);
-   background-color: var(--p4);
+  background-color: var(--p4);
 
   padding-left: 2em;
   padding-right: 2em;
@@ -193,29 +182,28 @@ ul {
   padding-bottom: 1em;
   margin-top: 2em;
   margin-bottom: 2em;
-  list-style: none; 
+  list-style: none;
   font-size: 1.3em;
 }
 
-
 // Make responsive embeded videos
-.iframe-container{
+.iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%;
   height: 0;
 }
-.iframe-container iframe{
+.iframe-container iframe {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
 
 .storeBadge img {
-  max-width:20%;
-  height:auto;
+  max-width: 20%;
+  height: auto;
 
   display: block;
   margin-left: auto;
@@ -223,11 +211,11 @@ ul {
   width: 50%;
 }
 
-.social  {
-  width:100%;
+.social {
+  width: 100%;
   text-decoration: none;
-  text-align: center; 
- 
+  text-align: center;
+
   align: center;
   div {
     display: inline-block;
@@ -235,8 +223,8 @@ ul {
     width: 10%;
     margin: 1em;
     text-align: center;
-}
- a {
-   color: inherit;
- }
+  }
+  a {
+    color: inherit;
+  }
 }

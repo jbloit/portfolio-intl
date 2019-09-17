@@ -18,7 +18,7 @@ const IndexPage = (props) => (
 
 
     </div>
-    <h1>Développeur audio - applications musicales</h1>
+    <h1>Développeur audio ~</h1>
   </Layout>
 )
 
