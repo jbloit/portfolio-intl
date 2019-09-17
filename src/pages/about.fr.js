@@ -45,9 +45,9 @@ const IndexPage = (props) => {
 
 
           <div className="social">
-            <div><a href="https://github.com/jbloit" target="_blank"><FaGithub size="2em" /></a></div>
-            <div><a href="https://www.linkedin.com/in/julien-bloit-4081b16/" target="_blank"><FaLinkedin size="2em" /></a></div>
-            <div><a href="https://twitter.com/jbloit" target="_blank"><FaTwitter size="2em" /></a> </div>
+            <div><a href="https://github.com/jbloit" target="_blank" rel="noopener noreferrer"><FaGithub size="2em" /></a></div>
+            <div><a href="https://www.linkedin.com/in/julien-bloit-4081b16/" target="_blank" rel="noopener noreferrer"><FaLinkedin size="2em" /></a></div>
+            <div><a href="https://twitter.com/jbloit" target="_blank" rel="noopener noreferrer"><FaTwitter size="2em" /></a> </div>
           </div>
 
         </div>
