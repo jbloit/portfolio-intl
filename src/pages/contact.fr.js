@@ -6,19 +6,14 @@ const IndexPage = (props) => (
   <Layout location={props.location}>
     <div className="plain">
 
-    <p>
-Envie de travailler ensemble? <br/><br/> Contactez-moi :
-</p>
-
+      <p>
+        Envie de travailler ensemble? <br/> Une idée de projet? <br/>Un petit bonjour? <br /> <br />Contactez-moi :
       <div className="social">
-        <div><a href="https://github.com/jbloit" target="_blank"><FaGithub size="2em" /></a></div>
-        <div><a href="https://www.linkedin.com/in/julien-bloit-4081b16/" target="_blank"><FaLinkedin size="2em" /></a></div>
-        <div><a href="https://twitter.com/jbloit" target="_blank"><FaTwitter size="2em" /></a> </div>
-        <div><a href="mailto:julien.bloit@gmail.com"><FaEnvelope size="2em" /></a> </div>
-      </div>
+          <div><a href="mailto:julien.bloit@gmail.com"><FaEnvelope size="2em" /></a> </div>
+        </div>
 
 
-
+      </p>
     </div>
 
 
