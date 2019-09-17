@@ -8,24 +8,11 @@ const IndexPage = (props) => (
 
 
     <div className="cover">
-
       <img src={coverImage} />
-
-      <div class="headlines">
-      <div>
-        <h1>
-        Je construis des dispositifs pour modeler la matière musicale,
-        </h1>
-        <h4>
-        à des fins artistiques, pédagogiques ou récréatives.
-       
-        </h4>
-        </div>
-      </div>
-
+      <h2>Je conçois des</h2>
+      <h1>Applications musicales</h1>
+      <h4>artistiques, pédagogiques ou récréatives.</h4>
     </div>
-
-
 
   </Layout>
 )
