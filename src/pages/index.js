@@ -9,9 +9,14 @@ const IndexPage = (props) => (
 
     <div className="cover">
       <img src={coverImage} />
-      <h2>Je conçois des</h2>
-      <h1>Applications musicales</h1>
-      <h4>artistiques, pédagogiques ou récréatives.</h4>
+      <div className="pitch">
+
+        <h1>Applications musicales</h1>
+        <p>Pédagogiques</p>
+        <p>Artistiques</p>
+        <p>ou Récréatives</p>
+      </div>
+
     </div>
 
   </Layout>
