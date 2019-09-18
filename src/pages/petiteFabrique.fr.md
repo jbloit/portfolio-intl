@@ -18,11 +18,11 @@ Au cours des vacances de Pâques, l'exposition a été visitée par un millier d
 
 ![Compositrain](../img/philharmoniePetiteFabrique/train_1.jpg)
 
-![Studio Electro](../img/philharmoniePetiteFabrique/STUDIO_ELECTRO_0.jpg)
+![Studio Electro](../img/philharmoniePetiteFabrique/STUDIO_ELECTRO_0.png)
 
-![Club Rock](../img/philharmoniePetiteFabrique/CLUB_DE_ROCK_2.jpg)
+![Club Rock](../img/philharmoniePetiteFabrique/CLUB_DE_ROCK_2.png)
 
-![Pitch Pong](../img/philharmoniePetiteFabrique/pitchPong.jpg)
+![Pitch Pong](../img/philharmoniePetiteFabrique/pitchPong.png)
 
 
 <div class="iframe-container">
