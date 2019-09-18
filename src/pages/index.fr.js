@@ -8,17 +8,17 @@ const IndexPage = (props) => (
 
 
     <div className="cover">
-      <img src={coverImage} />
-      <div className="pitch">
-        
+    {/* <div className="pitch">
         <h1>Applications musicales</h1>
         <p>Pédagogiques</p>
         <p>Artistiques</p>
         <p>ou Récréatives</p>
-      </div>
+      </div> */}
+      <img src={coverImage} />
+
 
     </div>
-
+    <h1>Développeur audio ~</h1>
   </Layout>
 )
 
