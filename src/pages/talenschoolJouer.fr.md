@@ -45,7 +45,7 @@ Sur la vidéo ci dessous, on peut apercevoir des versions prototypes utilisés e
  Pour que l'orchestre sonne bien, il faut que le départ de la lecture sur chaque tablette soit finement synchronisé avec les autres. Cela nécessite l'utilisation de technologies avancées de synchronisation au sample près sur un réseau wifi. 
 
 ###  Retour vidéo 
-L'une des tablette peut être utilisée comme retour vidéo, pour le chef d'orchestre ou le reste de la classe, qui peut alors visualiser l'activité sur les autres tablettes en temps réel. 
+L'une des tablettes peut être utilisée comme retour vidéo, pour le chef d'orchestre ou le reste de la classe, qui peut alors visualiser l'activité sur les autres tablettes en temps réel. 
 
 La vidéo ci-dessous illustre ces deux aspects:
 
