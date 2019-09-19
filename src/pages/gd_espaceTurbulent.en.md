@@ -2,31 +2,40 @@
 title: "L'Espace Turbulent"
 date: "2001-09-20"
 type: "project" 
-abstract: "Exploration sensible du chaos"
-client: "Groupe Dunes"
+support: "Installation"
+abstract: "An exploration of chaos"
+client: "groupedunes"
 thumbnail: "../img/groupeDunes/groupedunes_turbulent_1.png"
-role: "Conduite audio et vidéo"
+role: "development of an ad hoc show conductor"
 tech: ["Max/MSP"]
 ---
 
-Ferme du Buisson, Noisiel
-Une production du groupedunes avec La Ferme du Buisson et Arte (Festival Temps d'Images)
 
-[Le Groupe Dunes](http://www.groupedunes.fr)
+## Setup
 
-# Enjeux 
-sdlfkj sdlkj 
+A Lorenz water wheel turns in a chaotic manner, because of the holes drilled in the buckets. The wheel's rotation is used to control the audio and video sequences projected in the Caserne Dalhousie gallery.
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_1.png)
 
-## Et aussi
 
-![Studio Electro](../img/philharmoniePetiteFabrique/electro.jpg)
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_2.png)
 
-sqdlk sdlfkj sdf
 
-```
-sdfsdfsdf
-```
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_3.png)
+
+
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_4.png)
+
+
+![© groupedunes](../img/groupeDunes/groupedunes_turbulent_5.png)
+
+
+<div class="iframe-container">
+<iframe src="https://player.vimeo.com/video/340169209" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+## Références
+- Caserne Dalhousie, Québec, Sept. 20-29, 2001.
+- A [groupedunes](http://www.groupedunes.fr) production.
+- Photos: groupedunes
+

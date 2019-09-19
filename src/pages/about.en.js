@@ -21,7 +21,7 @@ const IndexPage = (props) => {
 
           <p>I worked for ten years at <a href="https://www.ircam.fr" target="_blank" rel="noopener noreferrer">Ircam</a> in Paris, first as a web developer for the Hypermedia studio, then as a researcher in real time interactive music applications. I earned my Ph.D there, working on machine learning algorithms for recognizing specific sound morphologies in audio recordings. </p>
 
-          <p> I am now an freelancer based in Brussels. I have experience working with  <Link to="en/petiteFabrique">French instituitons</Link>, <Link to="en/humtap">Silicon Valley startups</Link>, or with <Link to="en/gd_sansTitre">artists from Marseille</Link>. I'm always ready to <Link to="en/contact">discuss your project</Link> if you think I might help in any way.</p>
+          <p> I am now an freelancer based in Brussels. I have experience working with  <Link to="en/petiteFabrique">French institutions</Link>, <Link to="en/humtap">Silicon Valley startups</Link>, or with <Link to="en/gd_sansTitre">artists from Marseille</Link>. I'm always ready to <Link to="en/contact">discuss your project</Link> if you think I might help in any way.</p>
           <p>I run a weekly  <a href="https://www.spoken.brussels/robotics" target="_blank" rel="noopener noreferrer">robotics class</a> for kids</p>
           <p>I play the drums.</p>
 
