@@ -40,8 +40,8 @@ const Layout = (props) => {
           <Helmet
             title="Portfolio of Julien Bloit"
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Julien Bloit\'s portfolio' },
+              { name: 'keywords', content: 'audio, mobile, developer, ios, android, max/msp, dsp, art, installation, supercollider, burning man, prehistoric creatures, marguerite humeau, humtap, ircam, philharmonie, paris, brutpop, talens lyriques, baroque, talenschool, christophe rousset, clément lebrun, matthias demoucron' },
             ]}
           />
 
