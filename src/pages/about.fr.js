@@ -30,7 +30,7 @@ const IndexPage = (props) => {
 
   
          <div className="skills">
-            <div className="domain">Développment Mobile </div> <div className="skillset">Swift, Objective-C, Kotlin, CoreAudio, AudioKit, Link API</div>
+            <div className="domain">Développement Mobile </div> <div className="skillset">Swift, Objective-C, Kotlin, CoreAudio, AudioKit, Link API</div>
             <div className="domain">Lutherie numérique / sound design </div> <div className="skillset">Max/MSP, SuperCollider, Ableton Live, Reaper, Audacity, Bela, audio sur RaspberryPi, Jack</div>
             <div className="domain">Langages génériques </div> <div className="skillset">Python, C++, Java</div>
             <div className="domain">Méthodes agiles</div> <div className="skillset">Scrum, Kanban, Jira, Trello</div>
