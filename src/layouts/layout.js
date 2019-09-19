@@ -46,7 +46,7 @@ const Layout = (props) => {
           />
 
           <header>
-            <Link to={`/`} ><h1 className={styles.title}>{props.data.site.siteMetadata.title} </h1></Link>
+            <Link to={`/` + langKey} ><h1 className={styles.title}>{props.data.site.siteMetadata.title} </h1></Link>
             <input type="checkbox" id="navToggle" className={styles.navToggle} />
             <nav>
               <ul>
@@ -54,7 +54,7 @@ const Layout = (props) => {
                 <li><Link to={`/` + langKey + `/lab/`}><FormattedMessage id='nav_lab' /></Link></li>
                 <li> <Link to={`/` + langKey + `/about/`}><FormattedMessage id='nav_about' /></Link></li>
                 <li><Link to={`/` + langKey + `/contact/`}><FormattedMessage id='nav_contact' /></Link></li>
-                {/* <li><SelectLanguage langs={langsMenu} /></li> */}
+                <li><SelectLanguage langs={langsMenu} /></li>
               </ul>
 
             </nav>
