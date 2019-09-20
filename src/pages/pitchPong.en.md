@@ -8,27 +8,12 @@ thumbnail: "../img/pitchPong/pitchPong_sketch.png"
 tech: ["SuperCollider", "Processing"]
 ---
 
-EN EN EN 
-# Enjeux 
-sdlfkj sdlkj 
+Idea for controlling the classic Pong game, using vocal pitch as the input.
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
+I repurposed the idea for the [exhibit at the Philharmonie de Paris](../petiteFabrique/).
 
-## Et aussi
+Here's a screen cast of the prototype, in which I play against my 5-year-old son. It's the first try for both of us.
 
-sqdlk sdlfkj sdf
-
-
-sdflkj sdflkj 
-
-
-sdfkmkl,   
-
-```
-sdfsdfsdf
-```
 <div class="iframe-container">
 <iframe src="https://player.vimeo.com/video/316172056" width="640" height="430" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
