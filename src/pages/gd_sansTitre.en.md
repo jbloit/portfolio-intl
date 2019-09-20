@@ -1,32 +1,35 @@
 ---
+support: "Installation"
 title: "Sans Titre Provisoire"
 date: "2002-02-07"
 type: "project" 
-abstract: "Chorégraphie architecturale d'images et de sons"
-client: "Humtap Inc."
+abstract: "Architectural images and sounds choreography"
+client: "groupedunes"
 thumbnail: "../img/groupeDunes/groupedunes_sanstitre_4.png"
-roles: ["Conduite audio et vidéo"]
+role: "development of an ad hoc show conductor"
 tech: ["Max/MSP"]
 ---
 
-Ferme du Buisson, Noisiel
-Une production du groupedunes avec La Ferme du Buisson et Arte (Festival Temps d'Images)
+Installation de vidéos et de sons en multiphonie sur une large superficie en extérieur. J'ai programmé le système de conduite en Max/MSP.
 
-[Le Groupe Dunes](http://www.groupedunes.fr)
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_1.png)
 
-# Enjeux 
-sdlfkj sdlkj 
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_2.png)
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_3.png)
 
-## Et aussi
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_4.png)
 
-![Studio Electro](../img/philharmoniePetiteFabrique/electro.jpg)
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_5.png)
 
-sqdlk sdlfkj sdf
+![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_6.png)
 
-```
-sdfsdfsdf
-```
+
+<div class="iframe-container">
+<iframe src="https://player.vimeo.com/video/340165738" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+
+
+## Références
+- Ferme du Buisson, Noisiel, du 7 au 10 février 2002.
+- Une production du [groupedunes](http://www.groupedunes.fr) avec La Ferme du Buisson et Arte (Festival Temps d'Images)

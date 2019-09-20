@@ -12,9 +12,7 @@ const IndexPage = (props) => {
 
       <div className="plain">
         <div className="about">
-
-
-
+          
           <img src={myFace} alt="Me" />
 
           <p>I'm an audio developer, with a focus on musical applications. I work either on tangible or virtual supports, such as installations or mobile apps.</p>
