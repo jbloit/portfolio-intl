@@ -8,7 +8,7 @@ const IndexPage = (props) => (
   <Layout location={props.location}>
     <div className={styles.intro}>
       <h1>My projects</h1>
-      <p>A selection of shipped projects</p>
+      <p>A selection of shipped projects on which I collaborated.</p>
     </div>
     <div className={styles.projects}>
       {props.data.allMarkdownRemark.edges.map(({ node }) => (
