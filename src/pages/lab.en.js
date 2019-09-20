@@ -7,6 +7,7 @@ import styles from "./lab.module.css";
 const IndexPage = (props) => (
   <Layout location={props.location}>
   <h1>THE LAB</h1>
+  <p>Sketches, technical focus or unpublished projects.</p>
     <div className={styles.projects}>
       {props.data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id} className={styles.projectThumb}>
