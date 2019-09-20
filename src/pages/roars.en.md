@@ -1,29 +1,25 @@
 ---
-title: "Roars"
-date: "2019-04-19"
+title: "Proposal for Resuscitating Prehistoric Creatures"
+support: "Installation"
+date: "2012-04-18"
 type: "project" 
-abstract: "Abs EN"
-client: "M Humeau"
+abstract: "The speculative sound of prehistorical creatures"
+client: "Marguerite Humeau"
 thumbnail: "../img/humeauPrehistoricCreatures/roarsModel.png"
 role: "composition & interactive audio"
-tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
+tech: ["Max/MSP", "Genetic algorithms"]
 ---
-J'ai travaillé à la mise en place de l'expo éphémère La Petite Fabrique à la Philharmonie de Paris.
+
+Artist Marguerite Humeau hired me to come up with imanaginary sounds made by extinct mamals. Due to their nature, vocal tissues of such creatures have not fossilized, and thus one can not scientifically simulate their sound, however, one can speculate them, based on the proximity with their live descendants. 
+
+I started of from a vocal tract synthesis model, and had the parameters evolve with some genetics algorithm, so to generated hundreds of related call sounds, which evolve from one another throughout the lasting of the exhibit.
+
+The installation was shown during the St Etienne design show, as well as in Berlin gallery.
+
+![Roars Remade](../img/humeauPrehistoricCreatures/margueriteHumeau_wired.jpg)
 
 
-# Enjeux 
-sdlfkj sdlkj 
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/78841948&color=%237c7c7c&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
-
-## Et aussi
-
-![Studio Electro](../img/philharmoniePetiteFabrique/electro.jpg)
-
-sqdlk sdlfkj sdf
-
-```
-sdfsdfsdf
-```
+- Audio recording: Sébastien Tondo
+- Photo: Wired Magazine (UK edition)
