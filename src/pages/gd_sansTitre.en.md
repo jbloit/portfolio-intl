@@ -10,7 +10,7 @@ role: "development of an ad hoc show conductor"
 tech: ["Max/MSP"]
 ---
 
-Installation de vidéos et de sons en multiphonie sur une large superficie en extérieur. J'ai programmé le système de conduite en Max/MSP.
+Video and sounds installation in a large outdoor setting. I write the ad hoc conductor software with Max/MSP.
 
 ![© groupedunes](../img/groupeDunes/groupedunes_sanstitre_1.png)
 
@@ -31,5 +31,6 @@ Installation de vidéos et de sons en multiphonie sur une large superficie en ex
 
 
 ## Références
-- Ferme du Buisson, Noisiel, du 7 au 10 février 2002.
-- Une production du [groupedunes](http://www.groupedunes.fr) avec La Ferme du Buisson et Arte (Festival Temps d'Images)
+- Ferme du Buisson, Noisiel, Feb. 7-10, 2002.
+- A [groupedunes](http://www.groupedunes.fr) production.
+- Photos: groupedunes
