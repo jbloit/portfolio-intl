@@ -1,29 +1,20 @@
 ---
-title: "Humtap App"
+support: "Mobile app (iOS)"
+title: "Humtap"
 date: "2018-01-01"
 type: "project" 
-abstract: "Abs EN"
+abstract: "Produce music from hummed melodies"
 client: "Humtap Inc."
 thumbnail: "../img/humtap/humtapWeb.png"
-role: "interactive audio"
-tech: ["SuperCollider", "Raspberry Pi", "Node.js", "Processing", "Kinnect SDK"]
+role: "Technical co-founder"
+tech: ["iOS", "C++", "Python", "AI"]
 ---
-J'ai travaillé à la mise en place de l'expo éphémère La Petite Fabrique à la Philharmonie de Paris.
 
+Humtap is a mobile app that composes and plays musical loops in several styles, with the user's humming or tapping into their phone.
 
-# Enjeux 
-sdlfkj sdlkj 
+I contributed creating and growing this startup based in Silicon Valley. During four years, I helped with engineering, coding, product development and team management.
 
-1. lkjs dfsdf
-2. mlksdmflksdf
-3. sdfsdfsd
+<div class="iframe-container">
+<iframe src="https://player.vimeo.com/video/337852221" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
 
-## Et aussi
-
-![Studio Electro](../img/philharmoniePetiteFabrique/electro.jpg)
-
-sqdlk sdlfkj sdf
-
-```
-sdfsdfsdf
-```
