@@ -1,5 +1,5 @@
 ---
-title: "T@lenschool - Composer"
+title: "T@lenschool - Composing"
 date: "2018-09-01"
 type: "project"
 support: "Mobile app (iOS & Android)"
@@ -15,7 +15,7 @@ The *T@lenschool* project was born out of a collaboration between the baroque or
 *T@lenschool* was thought as an addition to this offer, as three mobile apps that can be quickly deployed in the classroom. Each app allows to dive into specific aspects of the baroque repertoire, by giving students a hands-on experience of being conductor, the interpret or the composer.
 
 
-## *Composition* app
+## *Composing* app
 
 In this app, a theme is looped over a few bars, and each bar can be replaced with a variation or the theme. While playing with this sort of musical jigsaw puzzle, one starts paying attention to the fine music parameters that make up the different variations and their relation to the original theme. Students 
 
