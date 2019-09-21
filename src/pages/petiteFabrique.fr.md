@@ -30,3 +30,5 @@ Au cours des vacances de Pâques, l'exposition a été visitée par un millier d
 <iframe width="640" height="360" src="https://www.youtube.com/embed/8XAhJXAWRmU" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
+
+Photo: Victoria Tanto

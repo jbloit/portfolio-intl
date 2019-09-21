@@ -30,3 +30,5 @@ During the Easter hoilday, our prototypes were tried out by over a thousant visi
 <iframe width="640" height="360" src="https://www.youtube.com/embed/8XAhJXAWRmU" frameborder="0" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </div>
+
+Photo: Victoria Tanto
