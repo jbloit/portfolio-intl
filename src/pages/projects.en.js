@@ -7,31 +7,27 @@ import styles from "./projects.module.css";
 const IndexPage = (props) => (
   <Layout location={props.location}>
     <div className={styles.intro}>
-      <h1>My projects</h1>
-      <p>A selection of shipped projects on which I collaborated.</p>
+      <h1>Projects</h1>
+      <p>A selection of shipped projects on which I collaborated.</p>
     </div>
     <div className={styles.projects}>
       {props.data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id} className={styles.projectThumb}>
           <h3>{node.frontmatter.title}</h3>
-          <h4>{node.frontmatter.client}</h4>
-          <p>{node.frontmatter.abstract}</p>
+          {/* <h4>{node.frontmatter.client}</h4> */}
+          <h4>{node.frontmatter.abstract}</h4>
           <Link to={node.fields.slug}>
             <Img
               fluid={node.frontmatter.thumbnail.childImageSharp.fluid}
             />
           </Link>
-
         </div>
-
       ))}
     </div>
   </Layout>
 )
 
 export default IndexPage
-
-
 
 export const query = graphql`   
     query{
@@ -50,7 +46,6 @@ export const query = graphql`
                           ...GatsbyImageSharpFluid
                         }
                       }
-                
                 }
                }
                fields{
