@@ -10,7 +10,7 @@ role: "conception et développemment"
 tech: ["Swift", "Objective-C", "Kotlin", "Java", "C++", "Link API"]
 ---
 
-Le projet T@lenschool est né d'une collaboration entre l'ensemble baroque *Les Talens Lyriques* et le collectif *OnOffOn*. Les Talens Lyriques répètent régulièrement dans des collèges parisiens. De ces résidences naissent des actions pédagogiques de familiarisation à l'orchestre et au répertoire baroque. 
+Le projet T@lenschool est né d'une collaboration entre l'ensemble baroque [Les Talens Lyriques](https://www.lestalenslyriques.com/) et le collectif *OnOffOn*. Les Talens Lyriques répètent régulièrement dans des collèges parisiens. De ces résidences naissent des actions pédagogiques de familiarisation à l'orchestre et au répertoire baroque. 
 
 
 T@lenschool incarne l'une ce ces actions, sous la forme de trois applications mobiles utilisées en classe de musique. Chaque application permet d'aborder un aspect du répertoire en se glissant dans la peau du chef d'orchestre, du compositeur ou de l'interprète.

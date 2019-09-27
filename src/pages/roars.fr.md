@@ -10,11 +10,11 @@ role: "composition & interactive audio"
 tech: ["Max/MSP", "Genetic algorithms"]
 ---
 
-L'artiste Marguerite Humeau m'a demandé d'imaginer les sons produits par des animaux disparus. Les tissus de leurs organes vocaux n'ayant pas fossilisé, on ne peut pas simuler scientifiquement ces sons, mais on peut spéculer à partir de la parenté avec leurs descendants vivants. 
+L'artiste [Marguerite Humeau](https://www.instagram.com/marguerite_humeau/) m'a demandé d'imaginer les sons produits par des animaux disparus. Les tissus de leurs organes vocaux n'ayant pas fossilisé, on ne peut pas simuler scientifiquement ces sons, mais on peut spéculer à partir de la parenté avec leurs descendants vivants. 
 
 A partir d'un modèle de synthese de gorge vocale, j'ai fait évoluer les parametres de la synthese avec un algorithme génétique, afin de produire des centaines de sons qui évoluent au cours du temps pendant l'installation.
 
-L'installation a été montrée à la biennale du design de St Etienne ainsi qu'à Berlin.
+L'installation a été montrée à la [biennale du design de St Etienne](https://www.artshebdomedias.com/article/101212-politique-fiction-saint-etienne-quand-un-mammouth-elargit-le-debat/) ainsi qu'à Berlin, et présentée dans le [magazine Wired](https://www.wired.co.uk/article/roars-remade).
 
 ![Roars Remade](../img/humeauPrehistoricCreatures/margueriteHumeau_wired.jpg)
 

@@ -10,7 +10,7 @@ role: "Design and development"
 tech: ["Swift", "Objective-C", "Kotlin", "Java", "C++", "Link API"]
 ---
 
-The *T@lenschool* project was born out of a collaboration between the baroque orchestra *Les Talens Lyriques* and the *OnOffOn* collective. *Les Talens Lyriques* are often doing residencies in Parisian high schools where they settle for a few years, offering public rehearsals and music classes.
+The *T@lenschool* project was born out of a collaboration between the baroque orchestra [Les Talens Lyriques](https://www.lestalenslyriques.com/en/) and the *OnOffOn* collective. *Les Talens Lyriques* are often doing residencies in Parisian high schools where they settle for a few years, offering public rehearsals and music classes.
 
 *T@lenschool* was thought as an addition to this offer, as three mobile apps that can be quickly deployed in the classroom. Each app allows to dive into specific aspects of the baroque repertoire, by giving students a hands-on experience of being conductor, the interpret or the composer.
 
