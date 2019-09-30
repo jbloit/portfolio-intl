@@ -17,7 +17,7 @@ The *T@lenschool* project was born out of a collaboration between the baroque or
 
 ## *Playing together* app
 
-This app allow to deploy an orchestra in the classroom. Each student picks an instrument and can change the volume and the ornemations.
+This app allow to deploy an orchestra in the classroom. Each student picks an instrument and can change the volume and the ornementations.
 
 ![Jouer Ensemble](../img/talenschool/App01-Capture-592x419@2x.png)
 
