@@ -14,7 +14,7 @@ The [Philharmonie de Paris](https://philharmoniedeparis.fr/fr) hall is planning 
 
 I took part in the team led by [BrutPop](http://brutpop.blogspot.com/), comisionned to prototype a dozen of these installations, in order to gather user feedback early on in the design process of the exhibit space. 
 
-During the Easter hoilday, our prototypes were tried out by over a thousant visitors.
+During the Easter holiday, our prototypes were tried out by over a thousand visitors.
 
 ![Compositrain](../img/philharmoniePetiteFabrique/train_1.jpg)
 
